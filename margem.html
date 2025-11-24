@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.margem.css">
+
+</head>
+<body>
+   <header id="cabecalho">
+      <nav class="itens">
+         <a href="index.html">Home</a>
+         <a href="calculos.html">Calculadora de Mkp</a>
+         <a href="margem.html">Calculo Margem Contribuição</a>
+      </nav>
+   </header>
+<div id="area">
+  <div id="container">
+    <h2 class="titulo">Calculo de Margem de Contribuição</h2>
+    <br>
+
+    <label class="lb">Faturamento (ROB)</label><br>
+    <input id="faturamento" type="number" class="imp" placeholder="Faturamento (ROB)">
+    <br>
+
+    <label class="lb">Imposto (26,25%)</label> <br>
+    <div id="imp" class="lb1">0</div>
+    <br>
+
+    <label class="lb">Receita Operacional Líquida (ROL)</label><br>
+    <div id="rol" class="lb1">0</div>
+    <br>
+
+    <label class="lb">Custo Mercadoria Vendida (CMV)</label><br>
+    <input id="cmv" type="number" class="imp" placeholder="Custo da Mercadoria (CMV)">
+    <br>
+
+    <label class="lb">Frete</label><br>
+    <input id="frete" type="number" class="imp" placeholder="Frete">
+    <br><br>
+
+   <button onclick="calcularTudo()" id="calcular">Calcular</button>
+   <br><br>
+
+   <label class="lb">Margem (R$)</label><br>
+   <div id="margem" class="lb1">0</div>
+   <br>
+
+   <label class="lb">Margem de Contribuição (%)</label><br>
+   <div id="percentual" class="lb1">0</div>
+   <br>
+  </div>
+</div>
+ <script src="script-margem.js"></script>
+</body>
+</html>

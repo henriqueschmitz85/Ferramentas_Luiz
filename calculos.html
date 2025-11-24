@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.calculos.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+   <header id="cabecalho">
+      <nav class="itens">
+         <a href="index.html">Home</a>
+         <a href="calculos.html">Calculadora de Mkp</a>
+         <a href="margem.html">Calculo Margem Contribuição</a>
+      </nav>
+   </header>
+        <div id="area">
+            <div id="container"><br>
+                <h2 class="titulo">Calculadora de Mkp</h2>
+                <br>
+                <label class="lb">Custo Gerencial </label> 
+                <br>
+                <input id="custoGerencial" type="number" class="input" placeholder="Custo Gerencial"><br>
+                <label class="lb">Preço do produto </label><br>
+                
+                <input  id="novoValorVenda"  type="number" class="input" placeholder="Preço Produto"><br>
+                <button id="calcular" onclick="calcularMargem()">Calcular</button><p></p>
+                <br>
+                <label id="result"  class="lb">Resultado </label><p></p>
+                <br>
+                <p class="res" id="resultado"></p> <br>
+
+            </div>  
+     </div>
+</body>
+</html>
