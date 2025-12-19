@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: #dcd3d3;
+  font-family: Arial, sans-serif;
+}
+
+
+nav {
+  display: flex;
+  gap: 40px; /* Espaço entre os links */
+  justify-content: center; /* Centraliza no header */
+  align-items: center;
+  background-color: #333;
+  padding: 16px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color: rgb(224, 87, 33);
+}
+
+.video h2{
+  color: blue;
+}
